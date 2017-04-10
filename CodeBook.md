@@ -4,9 +4,11 @@ Download and unzip the raw data somewhere onto your computer from here: https://
 ### Step 2
 Download and move the run_analysis.R file into the unzipped 'UCI HAR Dataset' folder
 ### Step 3
-Open the R console and change the working directory to the 'UCI HAR Dataset' folder
+Open the R console and use setwd() to change the working directory to the 'UCI HAR Dataset' folder
 ### Step 4
 Source the run_analysis.R script and wait for the tidy data to be created
+
+
 
 # run_analysis.R
 This script does the following:
@@ -17,6 +19,8 @@ This script does the following:
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## For more details on how this script works, view the comments within the R code
+
+
 
 # run_analysis.R Output
 When the script has completed successfully, there will be 2 objects and a newly created text file.
@@ -118,6 +122,8 @@ This dataset contains the averages of each measurement (total 86) grouped by Sub
 
 ## tidymean.txt
 Text file of the 'tidymean' object. Contains column names, but not row names.
+
+
 
 # The Raw Data
 ## Human Activity Recognition Using Smartphones Dataset Version 1.0
