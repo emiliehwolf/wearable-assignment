@@ -9,6 +9,8 @@ This is the peer-review project assignment for Getting and Cleaning Data in the 
 ## Original Dataset
 The raw data to be cleaned and analyzed is here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+# Instructions
+
 ### Step 1
 Download and unzip the raw data somewhere onto your computer
 
