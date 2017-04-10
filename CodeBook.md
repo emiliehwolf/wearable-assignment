@@ -1,14 +1,4 @@
-# Code Book Instructions
-### Step 1
-Download and unzip the raw data somewhere onto your computer from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-### Step 2
-Download and move the run_analysis.R file into the unzipped 'UCI HAR Dataset' folder
-### Step 3
-Open the R console and use setwd() to change the working directory to the 'UCI HAR Dataset' folder
-### Step 4
-Source the run_analysis.R script and wait for the tidy data to be created
-
-
+# CodeBook.md
 
 # run_analysis.R
 This script does the following:
