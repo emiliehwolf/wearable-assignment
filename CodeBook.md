@@ -1,4 +1,4 @@
-# Instructions
+# Code Book Instructions
 ### Step 1
 Download and unzip the raw data somewhere onto your computer from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ### Step 2
@@ -21,7 +21,7 @@ This script does the following:
 ## Creative License
 * I chose to keep the variable names as short as possible while still keeping them descriptive. You'll notice I removed parentheses, commas, and repeated words. I also shortened words such as "Gravity" to just "Grav". I decided to leave "tBody" and "fBody" alone rather than elongate them.
 * When subsetting the columns concerning mean and standard deviation, I decided to include **any** column with "mean" or "std" in the name. Therefore, you'll notice several "FreqMean" and "GravMean" variables that are different from the rest. They seemed relevent to the assignment, so I kept them a part of the dataset.
-* For more details on how this script works and the decisions I made, view the comments within the R code.
+* **For more details on how this script works and the decisions I made, view the comments within the R code.**
 
 
 
