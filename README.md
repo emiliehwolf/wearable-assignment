@@ -3,7 +3,7 @@ This is the peer-review project assignment for Getting and Cleaning Data in the 
 
 ## Files
 * README.md - Introduction you're reading right now
-* CodeBook.md - Explains the dataset, it's variables and values, the transformations, and the output
+* CodeBook.md - Explains the script, the dataset and its variables and values, the transformations, and the script output
 * run_analysis.R - This script prepares a tidy dataset from a raw one and needs to be placed inside the unzipped folder 'UCI HAR Dataset'.
 
 ## Original Dataset
