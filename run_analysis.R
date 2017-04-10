@@ -47,7 +47,7 @@ tidy <- data[,grepl("[Mm]ean|[Ss]td|Subject|Activity",names(data))]
 
 rm(data)
 
-## Change the Activity values from numbers (1-6) to descriptive strings (LYING, SITTING, etc)
+## Change the Activity values from numbers (1-6) to descriptive strings (WALKING, SITTING, etc)
 for (i in 1:6) { 
         tidy$Activity[tidy$Activity == i] <- as.character(activitylabels[i,2])
 }
